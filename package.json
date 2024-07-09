@@ -1,0 +1,22 @@
+{
+  "name": "sds-front-end-2023-24",
+  "version": "1.0.0",
+  "description": "Responsive portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laivii/SDS-Front-End-2023-24.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/laivii/SDS-Front-End-2023-24/issues"
+  },
+  "homepage": "https://github.com/laivii/SDS-Front-End-2023-24#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
