@@ -68,11 +68,27 @@
 
 //Smartphones
 @include mediaSm {
-    main#home h1 {
-        margin-top: 10vh;
+    main {
+        padding: 1rem;
+
+        h1 {
+            margin-top: 7vh;
+        }
+
+        &#home h1 {
+            margin-top: 10vh;
+        }
     }
 
     .projects {
         grid-template-columns:  1fr;
+    }
+}
+
+@include mediaXs {
+    h1, h2, h3 {    
+        &.lg-heading {
+            font-size: 5rem;
+        }
     }
 }
