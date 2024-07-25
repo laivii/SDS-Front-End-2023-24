@@ -10,6 +10,8 @@ menuBtn.addEventListener("click", toggleMenu);
 
 function toggleMenu() {
     if(!showMenu){
+        document.body.classList.add("no-scroll")
+
         menuBtn.classList.add("close");
         menu.classList.add("show");
         menuNav.classList.add("show");
@@ -19,6 +21,8 @@ function toggleMenu() {
 
         showMenu = true;
     } else {
+        document.body.classList.remove("no-scroll")
+
         menuBtn.classList.remove("close");
         menu.classList.remove("show");
         menuNav.classList.remove("show");

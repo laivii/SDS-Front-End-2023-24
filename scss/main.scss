@@ -15,7 +15,9 @@ body {
     line-height: 1.5;
 }
 
-//Headings
+.no-scroll {
+    overflow: hidden;
+}
 
 h1, h2, h3 {
     margin: 0;

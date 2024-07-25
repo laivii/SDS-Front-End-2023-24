@@ -58,7 +58,7 @@
     &-nav {
         margin: 0;
         padding: 0;
-        background: rgba(darken($color: $primary-color, $amount: 5), 0.9);
+        background: darken($color: $primary-color, $amount: 5);
         list-style: none;
         transform: translate3d(0, -100%, 0);
         @include easeOut;
@@ -69,7 +69,7 @@
     }
 
     &-branding {
-        background: rgba($primary-color, 0.9);
+        background: $primary-color;
         transform: translate3d(0, 100%, 0);
         @include easeOut;
 
