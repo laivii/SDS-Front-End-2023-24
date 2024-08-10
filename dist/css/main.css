@@ -98,6 +98,7 @@ body {
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 16px;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
@@ -116,12 +117,18 @@ body {
 .no-scroll {
   overflow: hidden; }
 
-h1, h2, h3 {
+.has-font-weight-bold {
+  font-weight: bold; }
+
+.mt-0 {
+  margin-top: 0; }
+
+h1, h2, h3, h4 {
   margin: 0;
   font-weight: 400; }
-  h1.lg-heading, h2.lg-heading, h3.lg-heading {
+  h1.lg-heading, h2.lg-heading, h3.lg-heading, h4.lg-heading {
     font-size: 6rem; }
-  h1.sm-heading, h2.sm-heading, h3.sm-heading {
+  h1.sm-heading, h2.sm-heading, h3.sm-heading, h4.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
     background: rgba(73, 73, 73, 0.5); }
@@ -164,6 +171,7 @@ main {
     border-radius: 50%;
     border: 3px solid #eece1a; }
   .about-info .bio {
+    max-width: 600px;
     grid-area: bio;
     font-size: 1.5rem; }
   .about-info .job-1 {
@@ -173,9 +181,10 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
+    border-radius: 15px;
     background: #515151;
-    padding: 0.5rem;
-    border-bottom: 5px solid #eece1a; }
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1rem; }
 
 .projects {
   display: grid;
