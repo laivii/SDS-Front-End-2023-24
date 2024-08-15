@@ -171,7 +171,6 @@ main {
     border-radius: 50%;
     border: 3px solid #eece1a; }
   .about-info .bio {
-    max-width: 600px;
     grid-area: bio;
     font-size: 1.5rem; }
   .about-info .job-1 {
@@ -241,11 +240,15 @@ main {
   color: #FFF;
   height: 60px; }
 
-@media screen and (min-width: 1171px) {
+@media screen and (min-width: 1601px) {
+  main {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto; }
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
 
-@media screen and (max-width: 769px) and (max-width: 1170px) {
+@media screen and (max-width: 769px) and (max-width: 1600px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
