@@ -1,5 +1,4 @@
 {
-    "conventionalCommits.scopes": [
-        "frontend"
-    ]
+  "conventionalCommits.scopes": ["frontend"],
+  "liveServer.settings.port": 5501
 }
