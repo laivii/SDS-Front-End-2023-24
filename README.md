@@ -9,7 +9,8 @@ This work follows:
 - @laivii | Viivi Laitinen
 
 ## So how does it work?
-You can find the deployed project from here: <a href="https://laivii.github.io/SDS-Front-End-2023-24/" target="_blank">Click here to open site</a>
+- You can find the deployed project from here: <a href="https://laivii.github.io/SDS-Front-End-2023-24/" target="_blank">Click here to open site</a>
+- Or you can open file in browser: "~../index.html"
 
 ### The site should work as follows...
 - Have multiple pages: **Home | About me | My Work | Contact**
