@@ -21,3 +21,7 @@ This work follows:
 
 ### Other info
 All the images are mine except ***Home*** -page background image which is from pexels <a href="https://www.pexels.com/fi-fi/kuva/196645/">Click here to view the original image (pexels.com)</a>
+
+<br><br>
+
+## Link to the video presenteation: <a href="https://www.youtube.com/watch?v=uD3iEJtSydU" target="_blank">Click here (YouTube)</a>
